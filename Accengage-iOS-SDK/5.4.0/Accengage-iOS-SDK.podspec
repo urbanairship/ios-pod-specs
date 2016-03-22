@@ -13,12 +13,12 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "http://www.accengage.com/"
-  s.license =    { :type => 'MIT', :text => <<-LICENSE
-                      Copyright 2015, Accengage
+  s.license =    { :type => 'proprietary', :text => <<-LICENSE
+                      Copyright 2016, Accengage
                    LICENSE
                  }  
   s.author       = { "Accengage" => "help@accengage.com" }
-  s.source = { :http => "http://wiki.accengage.com/ios/downloads/AccengageKit-5.4.0.zip" }
+  s.source = { :http => "http://docs.accengage.com/sdk/ios/AccengageKit-#{s.version.to_s}.zip" }
 
   s.platform     = :ios, "6.0"
   s.ios.deployment_target = "6.0"
