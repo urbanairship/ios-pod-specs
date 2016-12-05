@@ -23,6 +23,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
 
   s.frameworks = "CoreGraphics"
-  s.weak_frameworks = "UserNotifications"
+  s.weak_framework = "UserNotifications"
   s.vendored_frameworks  = 'AccengageExtension.framework'
 end
