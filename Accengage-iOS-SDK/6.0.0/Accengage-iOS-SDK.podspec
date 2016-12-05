@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
 
   s.frameworks = "AdSupport", "CoreGraphics", "CoreLocation", "CoreTelephony", "iAd", "SystemConfiguration", "CFNetwork"
-  s.weak_frameworks = "UserNotifications"
+  s.weak_framework = "UserNotifications"
   s.library = "z", "sqlite3"
   s.vendored_frameworks  = 'Accengage.framework'
 end
