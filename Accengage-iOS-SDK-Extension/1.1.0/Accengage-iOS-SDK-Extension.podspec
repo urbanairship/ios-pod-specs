@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
                    LICENSE
                  }  
   s.author       = { 'Accengage' => 'help@accengage.com' }
-  s.source = { :http => 'https://docs.accengage.com/sdk/ios/AccengageKitExtension-1.1.0.zip' }
+  s.source = { :http => 'https://dl.bintray.com/accengage/iOS/AccengageKitExtension-1.1.0.zip' }
 
   s.platform = :ios
   s.ios.deployment_target = '8.0'
