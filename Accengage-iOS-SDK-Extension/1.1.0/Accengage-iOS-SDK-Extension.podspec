@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.source = { :http => 'https://dl.bintray.com/accengage/iOS/AccengageKitExtension-1.1.0.zip' }
 
   s.platform = :ios
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.frameworks = 'CoreGraphics', 'UIKit'
   s.weak_framework = 'UserNotifications'
