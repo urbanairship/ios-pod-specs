@@ -26,5 +26,5 @@ Pod::Spec.new do |s|
   s.frameworks = 'CoreGraphics', 'CoreLocation', 'CoreTelephony', 'iAd', 'SystemConfiguration', 'CFNetwork', 'StoreKit'
   s.weak_framework = 'UserNotifications'
   s.libraries = 'z', 'sqlite3'
-  s.vendored_frameworks  = 'Accengage.xcframework'
+  s.vendored_frameworks  = 'Accengage.framework'
 end
